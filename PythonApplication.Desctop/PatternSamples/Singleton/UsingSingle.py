@@ -21,6 +21,11 @@ def testLazySingle():
     print("Object created", LazySingl.getInstance()) # Object gets created here
     ls1 = LazySingl() ## instance already created
 
+    if id(ls) == id(ls1):
+        print("Singleton works, both variables contain the same instance.")
+    else:
+        print("Singleton failed, variables contain different instances.")
+
     ls.age = 10
     print(ls1.age)
 
