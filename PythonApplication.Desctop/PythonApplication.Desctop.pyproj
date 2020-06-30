@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>66831d3f-6fa8-4e88-9ae8-5226ad77701c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ExamplClass\Example.UsingClass.py</StartupFile>
+    <StartupFile>PatternSamples\Singleton\UsingSingle.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -32,6 +32,18 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Example.CreateWin.py" />
+    <Compile Include="PatternSamples\Singleton\LazySingl.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PatternSamples\Singleton\MetaSingl.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PatternSamples\Singleton\SimpleSingl.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PatternSamples\Singleton\UsingSingle.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
@@ -46,6 +58,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ExamplClass\" />
+    <Folder Include="PatternSamples\" />
+    <Folder Include="PatternSamples\Singleton\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
