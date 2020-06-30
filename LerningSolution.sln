@@ -9,6 +9,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "IronPythonApplication", "Ir
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication.Desctop", "PythonApplication.Desctop\PythonApplication.Desctop.pyproj", "{66831D3F-6FA8-4E88-9AE8-5226AD77701C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetDesignPatternSamples", "NetDesignPatternSamples\NetDesignPatternSamples.csproj", "{99ADC722-FC59-458B-8969-2247A133F384}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{5AB7A6C0-2C97-43A2-83EF-B57446C43420}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66831D3F-6FA8-4E88-9AE8-5226AD77701C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{66831D3F-6FA8-4E88-9AE8-5226AD77701C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99ADC722-FC59-458B-8969-2247A133F384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99ADC722-FC59-458B-8969-2247A133F384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99ADC722-FC59-458B-8969-2247A133F384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99ADC722-FC59-458B-8969-2247A133F384}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
