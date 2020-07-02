@@ -11,6 +11,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication.Desctop",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetDesignPatternSamples", "NetDesignPatternSamples\NetDesignPatternSamples.csproj", "{99ADC722-FC59-458B-8969-2247A133F384}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCodeExample", "NetCodeExample\NetCodeExample.csproj", "{6C0180E7-B4E8-4302-81C0-054B67279DCF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{99ADC722-FC59-458B-8969-2247A133F384}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99ADC722-FC59-458B-8969-2247A133F384}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99ADC722-FC59-458B-8969-2247A133F384}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C0180E7-B4E8-4302-81C0-054B67279DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0180E7-B4E8-4302-81C0-054B67279DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C0180E7-B4E8-4302-81C0-054B67279DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0180E7-B4E8-4302-81C0-054B67279DCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
