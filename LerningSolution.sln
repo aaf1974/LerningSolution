@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetDesignPatternSamples", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCodeExample", "NetCodeExample\NetCodeExample.csproj", "{6C0180E7-B4E8-4302-81C0-054B67279DCF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreML", "NetCoreML\NetCoreML.csproj", "{307591FC-F1FF-4B95-8585-C27A22A17C53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{6C0180E7-B4E8-4302-81C0-054B67279DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C0180E7-B4E8-4302-81C0-054B67279DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C0180E7-B4E8-4302-81C0-054B67279DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{307591FC-F1FF-4B95-8585-C27A22A17C53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{307591FC-F1FF-4B95-8585-C27A22A17C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{307591FC-F1FF-4B95-8585-C27A22A17C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{307591FC-F1FF-4B95-8585-C27A22A17C53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
