@@ -10,7 +10,6 @@ namespace NetCodeExample
             Console.WriteLine("Select one is patterns or END for exite");
             Tools.OutEnum2Console<SampleEnum>();
             Run();
-            
         }
 
         public static void Run()

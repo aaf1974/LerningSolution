@@ -10,7 +10,7 @@ namespace NetCoreLibrary
         public static void OutCode2Console(string filename, string methodName)
         {
             Console.BackgroundColor = ConsoleColor.White;
-            Console.ForegroundColor = ConsoleColor.Green;
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
 
             Console.WriteLine(Tools.GetMethodSourceCode(filename, methodName));
 
@@ -23,7 +23,7 @@ namespace NetCoreLibrary
         public static void OutCode2Console(IEnumerable<(string fileName, string methodName)> codeParts)
         {
             Console.BackgroundColor = ConsoleColor.White;
-            Console.ForegroundColor = ConsoleColor.Green;
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
 
             codeParts.ToList().ForEach(x =>
                 {
