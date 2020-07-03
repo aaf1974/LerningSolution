@@ -1,4 +1,7 @@
-﻿using NetCoreML.SentimentAnalysis;
+﻿using NetCoreML.GitHubIssueClassification;
+using NetCoreML.IrisFlowerClustering;
+using NetCoreML.SentimentAnalysis;
+using NetCoreML.TaxiFarePrediction;
 using System;
 
 namespace NetCoreML
@@ -13,6 +16,18 @@ namespace NetCoreML
                     SentimentMlSample.Start();
                     break;
 
+                case MlSampleEnum.GitHubIssueClassification:
+                    GitHubIssueMlSample.Start();
+                    break;
+
+
+                case MlSampleEnum.TaxiFarePrediction:
+                    TaxiFarePredictMlSample.Start();
+                    break;
+
+                case MlSampleEnum.IrisFlowerClustering:
+                    IrisFlowerMlSample.Start();
+                    break;
 
                 default:
                     throw new NotImplementedException();

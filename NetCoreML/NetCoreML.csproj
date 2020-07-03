@@ -7,10 +7,13 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.ML" Version="1.5.0" />
+    <PackageReference Include="Microsoft.ML.FastTree" Version="1.5.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="GitHubIssueClassification\Models\" />
     <Folder Include="SentimentAnalysis\Data\" />
+    <Folder Include="TaxiFarePrediction\Data\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,7 +21,22 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="GitHubIssueClassification\Data\issues_test.tsv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="GitHubIssueClassification\Data\issues_train.tsv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="IrisFlowerClustering\Data\iris.data">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="SentimentAnalysis\Data\yelp_labelled.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TaxiFarePrediction\Data\taxi-fare-test.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TaxiFarePrediction\Data\taxi-fare-train.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

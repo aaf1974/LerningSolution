@@ -9,7 +9,9 @@ namespace NetCoreML
         static void Main(string[] args)
         {
             Console.WriteLine("Select one is patterns or END for exite");
-            Tools.OutEnum2Console<MlSampleEnum>();
+            MlSampleEnum.GitHubIssueClassification.OutEnum2Console2();
+
+            //Tools.OutEnum2Console<MlSampleEnum>();
             Run();
 
             SentimentMlSample.Start();
@@ -27,7 +29,7 @@ namespace NetCoreML
                 if (parse && Enum.IsDefined(typeof(MlSampleEnum), intVal))
                     SampleRunner.RunSample((MlSampleEnum)intVal);
                 else
-                    Tools.OutEnum2Console<MlSampleEnum>();
+                    MlSampleEnum.GitHubIssueClassification.OutEnum2Console2();
             }
         }
     }

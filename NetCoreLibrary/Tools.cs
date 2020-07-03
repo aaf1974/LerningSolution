@@ -1,4 +1,5 @@
-﻿using Microsoft.CodeAnalysis;
+﻿using EnumsNET;
+using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.CodeAnalysis.Text;
@@ -26,6 +27,9 @@ namespace NetCoreLibrary
 
 
 
+
+
+
         //https://stackoverflow.com/questions/20338068/getting-a-specific-method-source-code-from-cs-file-at-runtime
         //https://stackoverflow.com/questions/31175881/unable-to-get-method-syntaxtree-parsefile-in-new-nuget-of-roslyn
         public static string GetMethodSourceCode(string filename, string methodName)
@@ -45,6 +49,37 @@ namespace NetCoreLibrary
             }
         }
 
-        
+
+
+        public static void OutEnum2Console2<TEnum>(this TEnum val)
+            where TEnum : struct, Enum
+        {
+            val.LtcGetEnumDictionary()
+                .ToList()
+                .ForEach(x => Console.WriteLine($"{x.Key.LtcGetDescription()} = {Convert.ToInt32(x.Key)}"));
+        }
+
+
+        public static Dictionary<TEnum, string> LtcGetEnumDictionary<TEnum>(this TEnum val)
+            where TEnum : struct, Enum
+        {
+            Dictionary<TEnum, string> result = LtcGetEnumCollection<TEnum>()
+                .ToList()
+                .ToDictionary(x => x, x => x.LtcGetDescription(EnumFormat.Description, EnumFormat.DisplayName));
+
+            return result;
+        }
+
+
+        public static IEnumerable<TEnum> LtcGetEnumCollection<TEnum>()
+        {
+            return Enum.GetValues(typeof(TEnum)).Cast<TEnum>();
+        }
+
+        public static string LtcGetDescription<TEnum>(this TEnum val, EnumFormat format = EnumFormat.Description, EnumFormat format2 = EnumFormat.DisplayName)
+            where TEnum : struct, Enum
+        {
+            return val.AsString(format, format2) ?? string.Empty;
+        }
     }
 }
