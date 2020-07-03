@@ -1,5 +1,6 @@
 ﻿using NetCoreML.GitHubIssueClassification;
 using NetCoreML.IrisFlowerClustering;
+using NetCoreML.MovieRecommender;
 using NetCoreML.SentimentAnalysis;
 using NetCoreML.TaxiFarePrediction;
 using System;
@@ -28,6 +29,11 @@ namespace NetCoreML
                 case MlSampleEnum.IrisFlowerClustering:
                     IrisFlowerMlSample.Start();
                     break;
+
+                case MlSampleEnum.MovieRecommender:
+                    MovieRecommenderMlSample.Start();
+                    break;
+
 
                 default:
                     throw new NotImplementedException();

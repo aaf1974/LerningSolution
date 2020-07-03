@@ -17,6 +17,9 @@ namespace NetCoreML
         TaxiFarePrediction = 3,
 
         [Description("Категоризация цветов ириса с использованием кластеризации k-средних в ML.NET")]
-        IrisFlowerClustering = 4
+        IrisFlowerClustering = 4,
+
+        [Description("Создание приложения для рекомендации фильмов с использованием матричной факторизации и ML.NET")]
+        MovieRecommender = 5
     }
 }
