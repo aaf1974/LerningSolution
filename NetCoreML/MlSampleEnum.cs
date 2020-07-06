@@ -20,6 +20,26 @@ namespace NetCoreML
         IrisFlowerClustering = 4,
 
         [Description("Создание приложения для рекомендации фильмов с использованием матричной факторизации и ML.NET")]
-        MovieRecommender = 5
+        MovieRecommender = 5,
+
+        [Description("(Ahtung!!!) Автоматизированная визуальная проверка с использованием передачи обучения и API классификации изображений ML.NET")]
+        DeepLearningImageClassification = 6,
+
+        [Description("Создание модели классификации изображений ML.NET на основе предварительно обученной модели TensorFlow")]
+        TransferLearningTF = 7,
+
+
+        [Description("Прогнозирование спроса для службы проката велосипедов с помощью анализа временных рядов и ML.NET")]
+        BikeDemand = 8,
+
+        [Description("Обнаружение аномалий в данных о продажах товаров с помощью ML.NET")]
+        ProductSalesAnomalyDetection = 9,
+
+
+        [Description("Обнаружение объектов с помощью ONNX в ML.NET")]
+        OnImageObjectDetection = 10,
+
+        [Description("Анализ тональности отзывов о фильмах с помощью предварительно обученной модели TensorFlow в ML.NET")]
+        TextClassificationTF = 11
     }
 }

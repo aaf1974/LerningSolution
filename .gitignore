@@ -246,7 +246,7 @@ ServiceFabricBackup/
 *.rptproj.bak
 
 # SQL Server files
-*.mdf
+#*.mdf
 *.ldf
 *.ndf
 
@@ -340,3 +340,4 @@ ASALocalRun/
 healthchecksdb
 /IronPythonApplication/env
 /PythonApplication.Desctop/env
+/NetCoreML/BikeDemandForecasting/MLModel.zip

@@ -56,7 +56,7 @@ namespace NetCoreLibrary
         {
             val.LtcGetEnumDictionary()
                 .ToList()
-                .ForEach(x => Console.WriteLine($"{x.Key.LtcGetDescription()} = {Convert.ToInt32(x.Key)}"));
+                .ForEach(x => Console.WriteLine($"{Convert.ToInt32(x.Key)}: {x.Key.LtcGetDescription()}"));
         }
 
 

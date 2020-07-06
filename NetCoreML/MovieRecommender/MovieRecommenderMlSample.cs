@@ -35,7 +35,8 @@ namespace NetCoreML.MovieRecommender
 
         public static ITransformer BuildAndTrainModel(MLContext mlContext, IDataView trainingDataView)
         {
-            IEstimator<ITransformer> estimator = mlContext.Transforms.Conversion.MapValueToKey(outputColumnName: "userIdEncoded", inputColumnName: "userId")
+            IEstimator<ITransformer> estimator = mlContext.Transforms
+                .Conversion.MapValueToKey(outputColumnName: "userIdEncoded", inputColumnName: "userId")
                 .Append(mlContext.Transforms.Conversion.MapValueToKey(outputColumnName: "movieIdEncoded", inputColumnName: "movieId"));
 
             /*
