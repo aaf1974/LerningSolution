@@ -65,6 +65,17 @@ namespace NetCoreML
                     TextClassificationTFMlSample.Start();
                     break;
 
+
+/*                case MlSampleEnum.FashionMnistTF:
+                    FashionMnistTFMlSample.Start();
+                    break;
+
+
+                case MlSampleEnum.DigitalMnist:
+                    DigitalMnistMlSample.Start();
+                    break;*/
+
+
                 default:
                     throw new NotImplementedException();
             }

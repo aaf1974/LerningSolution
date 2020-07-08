@@ -177,7 +177,10 @@ namespace NetCoreML.DeepLearningImageClassification
         }
 
 
-        
+        /// <summary>
+        /// отобразить сведения о прогнозе в консоли.
+        /// </summary>
+        /// <param name="prediction"></param>
         private static void OutputPrediction(ModelOutput prediction)
         {
             string imageName = Path.GetFileName(prediction.ImagePath);

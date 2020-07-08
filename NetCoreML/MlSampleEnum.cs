@@ -40,6 +40,15 @@ namespace NetCoreML
         OnImageObjectDetection = 10,
 
         [Description("Анализ тональности отзывов о фильмах с помощью предварительно обученной модели TensorFlow в ML.NET")]
-        TextClassificationTF = 11
+        TextClassificationTF = 11,
+
+/*
+        [Description(" Fashion MNIST TF")]
+        FashionMnistTF = 12,
+
+        [Description(" Digital MNIST")]
+        DigitalMnist = 13,
+*/
+
     }
 }

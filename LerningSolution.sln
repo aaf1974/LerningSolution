@@ -9,11 +9,11 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "IronPythonApplication", "Ir
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication.Desctop", "PythonApplication.Desctop\PythonApplication.Desctop.pyproj", "{66831D3F-6FA8-4E88-9AE8-5226AD77701C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetDesignPatternSamples", "NetDesignPatternSamples\NetDesignPatternSamples.csproj", "{99ADC722-FC59-458B-8969-2247A133F384}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetDesignPatternSamples", "NetDesignPatternSamples\NetDesignPatternSamples.csproj", "{99ADC722-FC59-458B-8969-2247A133F384}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCodeExample", "NetCodeExample\NetCodeExample.csproj", "{6C0180E7-B4E8-4302-81C0-054B67279DCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCodeExample", "NetCodeExample\NetCodeExample.csproj", "{6C0180E7-B4E8-4302-81C0-054B67279DCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreML", "NetCoreML\NetCoreML.csproj", "{307591FC-F1FF-4B95-8585-C27A22A17C53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreML", "NetCoreML\NetCoreML.csproj", "{307591FC-F1FF-4B95-8585-C27A22A17C53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
