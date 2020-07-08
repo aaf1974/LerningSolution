@@ -2,6 +2,7 @@
 using NetCoreML.DeepLearningImageClassification;
 using NetCoreML.GitHubIssueClassification;
 using NetCoreML.IrisFlowerClustering;
+using NetCoreML.MnistDigital;
 using NetCoreML.MovieRecommender;
 using NetCoreML.OnImageObjectDetection;
 using NetCoreML.ProductSalesAnomalyDetection;
@@ -66,14 +67,18 @@ namespace NetCoreML
                     break;
 
 
-/*                case MlSampleEnum.FashionMnistTF:
-                    FashionMnistTFMlSample.Start();
+                /*                case MlSampleEnum.FashionMnistTF:
+                                    FashionMnistTFMlSample.Start();
+                                    break;
+
+
+                                case MlSampleEnum.DigitalMnist:
+                                    DigitalMnistMlSample.Start();
+                                    break;*/
+
+                case MlSampleEnum.MnistDigital:
+                    MnistDigitalMlSample.Start();
                     break;
-
-
-                case MlSampleEnum.DigitalMnist:
-                    DigitalMnistMlSample.Start();
-                    break;*/
 
 
                 default:

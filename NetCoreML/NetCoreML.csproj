@@ -28,6 +28,8 @@
     <Folder Include="DeepLearningImageClassification\Assets\" />
     <Folder Include="DeepLearningImageClassification\workspace\" />
     <Folder Include="GitHubIssueClassification\Models\" />
+    <Folder Include="MnistDigital\Data\" />
+    <Folder Include="MnistDigital\MLModels\" />
     <Folder Include="MovieRecommender\Data\" />
     <Folder Include="OnImageObjectDetection\assets\" />
     <Folder Include="ProductSalesAnomalyDetection\Data\" />
