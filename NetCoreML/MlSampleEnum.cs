@@ -52,5 +52,9 @@ namespace NetCoreML
 
         [Description(" Digital MNIST (second try")]
         MnistDigital = 14,
+
+
+        [Description(" Digital MNIST (three try")]
+        MnistDigital_GZ = 15,
     }
 }
