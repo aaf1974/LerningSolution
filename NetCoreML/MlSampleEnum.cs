@@ -54,7 +54,10 @@ namespace NetCoreML
         MnistDigital = 14,
 
 
-        [Description(" Digital MNIST (three try")]
+        [Description(" Digital MNIST (three try, not working)")]
         MnistDigital_GZ = 15,
+
+        [Description("Load data samples")]
+        LoadSamples = 16,
     }
 }

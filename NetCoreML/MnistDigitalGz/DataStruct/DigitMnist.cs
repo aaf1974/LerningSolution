@@ -17,11 +17,11 @@ namespace NetCoreML.MnistDigitalGz.DataStruct
         //[VectorType(784)]
         //public byte[] PixelValues;
 
-        //[VectorType(196)]
-        //public float[] PixelValues;
+        [VectorType(196)]
+        public float[] PixelValues;
 
-        [VectorType(784)]
-        public byte[,] PixelValues;
+        //[VectorType(784)]
+        //public byte[,] PixelValues;
 
 
 

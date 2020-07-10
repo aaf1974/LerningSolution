@@ -61,6 +61,10 @@ namespace NetCoreML
             Console.WriteLine("=============== Training the model ===============");
             ITransformer trainedModel = dataProcessPipeline.Fit(mnistData.Traint);
 
+            var d = mlContext.Data.CreateEnumerable<DigitMnist>(mnistData.Test, true)
+                .Take(5)
+                .ToArray();
+
             Console.WriteLine("===== Evaluating Model's accuracy with Test data =====");
             var predictions = trainedModel.Transform(mnistData.Test);
             var metrics = mlContext.MulticlassClassification.Evaluate(data: predictions, labelColumnName: MnistEnumHelper.LabelCol, scoreColumnName: "Score");
@@ -94,8 +98,8 @@ namespace NetCoreML
                 new DigitMnist 
                 { 
                     Number = Convert.ToUInt32(x.Label),
-                    PixelValues = x.Image
-                    //PixelValues = TransformTo1D(x)
+                    //PixelValues = x.Image
+                    PixelValues = TransformTo1D(x)
                 })
                 .ToArray();
 

@@ -84,6 +84,10 @@ namespace NetCoreML
                     MnistDigitalGzMlSample.Start();
                     break;
 
+                case MlSampleEnum.LoadSamples:
+                    LoadSamplesMlSample.Start();
+                    break;
+
 
                 default:
                     throw new NotImplementedException();

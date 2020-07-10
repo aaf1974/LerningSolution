@@ -39,5 +39,9 @@ namespace NetCoreML.NLP
 
         //framework
         //http://accord-framework.net/samples.html
+
+
+        //MS
+        //https://docs.microsoft.com/ru-ru/dotnet/machine-learning/how-to-guides/prepare-data-ml-net
     }
 }
