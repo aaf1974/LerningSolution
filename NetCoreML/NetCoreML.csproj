@@ -32,6 +32,7 @@
     <Folder Include="MnistDigital\Data\" />
     <Folder Include="MnistDigital\MLModels\" />
     <Folder Include="MovieRecommender\Data\" />
+    <Folder Include="NaiveBayes\Data\" />
     <Folder Include="OnImageObjectDetection\assets\" />
     <Folder Include="ProductSalesAnomalyDetection\Data\" />
     <Folder Include="SentimentAnalysis\Data\" />

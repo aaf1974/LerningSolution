@@ -59,5 +59,10 @@ namespace NetCoreML
 
         [Description("Load data samples")]
         LoadSamples = 16,
+
+
+
+        [Description("упрощенный алгоритм Байеса")]
+        NaiveBayes = 17,
     }
 }

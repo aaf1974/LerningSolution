@@ -88,6 +88,10 @@ namespace NetCoreML
                     LoadSamplesMlSample.Start();
                     break;
 
+                case MlSampleEnum.NaiveBayes:
+                    NaiveBayesMlSample.Start();
+                    break;
+
 
                 default:
                     throw new NotImplementedException();
