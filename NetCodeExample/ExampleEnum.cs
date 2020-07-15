@@ -8,6 +8,8 @@ namespace NetCodeExample
     {
         Deconstruct = 1,
         DictionaryDeconstruct = 2,
-        Switch = 3
+        Switch = 3,
+
+        INstanceWitoutConstructorCall = 4
     }
 }

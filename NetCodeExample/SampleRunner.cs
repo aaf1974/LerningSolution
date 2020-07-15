@@ -23,6 +23,10 @@ namespace NetCodeExample
                     SwitchSample.PrintSample();
                     break;
 
+                case SampleEnum.INstanceWitoutConstructorCall:
+                    INstanceWitoutConstructorCall.PrintSample();
+                    break;
+
                 default:
                     throw new NotImplementedException();
             }
