@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCodeExample", "NetCodeEx
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreML", "NetCoreML\NetCoreML.csproj", "{307591FC-F1FF-4B95-8585-C27A22A17C53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfSamples", "WpfSamples\WpfSamples.csproj", "{A165AAC5-21C0-4E63-9E0A-3D82DE232977}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfSamples", "WpfSamples\WpfSamples.csproj", "{A165AAC5-21C0-4E63-9E0A-3D82DE232977}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SqlServerScripts", "SqlServerScripts\SqlServerScripts.sqlproj", "{18D737EF-AFB9-4F07-A626-9AC85123BDD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,12 @@ Global
 		{A165AAC5-21C0-4E63-9E0A-3D82DE232977}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A165AAC5-21C0-4E63-9E0A-3D82DE232977}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A165AAC5-21C0-4E63-9E0A-3D82DE232977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18D737EF-AFB9-4F07-A626-9AC85123BDD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18D737EF-AFB9-4F07-A626-9AC85123BDD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18D737EF-AFB9-4F07-A626-9AC85123BDD4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{18D737EF-AFB9-4F07-A626-9AC85123BDD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18D737EF-AFB9-4F07-A626-9AC85123BDD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18D737EF-AFB9-4F07-A626-9AC85123BDD4}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
