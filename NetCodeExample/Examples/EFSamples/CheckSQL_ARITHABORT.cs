@@ -10,6 +10,8 @@ namespace NetCodeExample
 
     //https://dba.stackexchange.com/questions/2500/make-sqlclient-default-to-arithabort-on
 
+
+    //https://docs.microsoft.com/ru-ru/ef/core/extensions/
     internal class CheckSQL_ARITHABORT
     {
         internal static void PrintSample()
