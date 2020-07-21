@@ -27,6 +27,10 @@ namespace NetCodeExample
                     INstanceWitoutConstructorCall.PrintSample();
                     break;
 
+                case SampleEnum.Check_SQL_ARITHABORT:
+                    CheckSQL_ARITHABORT.PrintSample();
+                    break;
+
                 default:
                     throw new NotImplementedException();
             }

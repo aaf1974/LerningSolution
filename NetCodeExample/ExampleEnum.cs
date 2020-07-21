@@ -10,6 +10,8 @@ namespace NetCodeExample
         DictionaryDeconstruct = 2,
         Switch = 3,
 
-        INstanceWitoutConstructorCall = 4
+        INstanceWitoutConstructorCall = 4,
+
+        Check_SQL_ARITHABORT = 5
     }
 }
