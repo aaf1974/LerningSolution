@@ -21,6 +21,8 @@ namespace NetCoreWebAppSample2.Controllers
             sb.AppendLine();
             sb.AppendLine(@$"<a href=/api/RRLog>Лог запросов</a>");
 
+
+
             return sb.ToString();
         }
     }

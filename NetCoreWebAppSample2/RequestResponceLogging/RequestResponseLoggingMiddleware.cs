@@ -11,6 +11,9 @@ namespace NetCoreWebAppSample2.RequestResponceLogging
 {
     //https://exceptionnotfound.net/using-middleware-to-log-requests-and-responses-in-asp-net-core/
     //https://github.com/exceptionnotfound/AspNetCoreRequestResponseMiddlewareDemo/blob/master/RequestResponseLoggingDemo.Web/Middleware/RequestResponseLoggingMiddleware.cs
+    //Other sample: https://itnext.io/log-requests-and-responses-in-asp-net-core-3-a1bebd49c996
+    //Other sample: https://blog.elmah.io/asp-net-core-request-logging-middleware/
+    //Other sample: https://www.google.com/search?q=.net+core+middleware+log+request+and+response&rlz=1C1GCEU_ruRU906RU906&oq=.net+core+mid&aqs=chrome.3.69i57j0l4j69i60l3.11631j0j7&sourceid=chrome&ie=UTF-8
     public class RequestResponseLoggingMiddleware
     {
         private readonly RequestDelegate _next;
