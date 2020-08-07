@@ -9,7 +9,7 @@ namespace NetCoreWebAppSample2.SamplesStartupStrtegy
     {
         private List<StartupStrategyBase> elements = new List<StartupStrategyBase>();
 
-        public PipelineStartupStrategy Add(StartupStrategyBase step)
+        public PipelineStartupStrategy Register(StartupStrategyBase step)
         {
             elements.Add(step);
             return this;
@@ -31,8 +31,8 @@ namespace NetCoreWebAppSample2.SamplesStartupStrtegy
         void sample1()
         {
             var sp = new PipelineStartupStrategy()
-                .Add(new RequestResponseLoggingStartupStrategy())
-                .Add(new RequestResponseLoggingStartupStrategy());
+                .Register(new RequestResponseLoggingStartupStrategy())
+                .Register(new RequestResponseLoggingStartupStrategy());
 
 
         }

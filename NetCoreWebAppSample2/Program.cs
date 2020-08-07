@@ -4,8 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using NetCoreWebAppSample2.BackgroundTask;
 
 namespace NetCoreWebAppSample2
 {
@@ -18,9 +20,25 @@ namespace NetCoreWebAppSample2
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                });
+
+            //https://docs.microsoft.com/ru-ru/aspnet/core/fundamentals/logging/?view=aspnetcore-3.1
+            .ConfigureLogging(logging =>
+            {
+                logging.ClearProviders();
+                logging.AddConsole();
+            })
+
+            .ConfigureWebHostDefaults(webBuilder =>
+            {
+                webBuilder.UseStartup<Startup>();
+            })
+
+            //.ConfigureServices(services =>
+            //{
+            //    Startup._startUpStrategy.FromProgramCall(services);
+            //    //services.AddHostedService<TimedHostedService>();
+            //})
+            ;
+
     }
 }

@@ -16,10 +16,11 @@ namespace NetCoreWebAppSample2
 {
     public class Startup
     {
-        //StartupStrategyBase _startUpStrategy = new RequestResponseLoggingStartupStrategy();
-        StartupStrategyBase _startUpStrategy = new PipelineStartupStrategy()
-            .Add(new RequestResponseLoggingStartupStrategy())
-            .Add(new ResponceCachingSampleStartupStrategy())
+        public static StartupStrategyBase _startUpStrategy = new PipelineStartupStrategy()
+            .Register(new RequestResponseLoggingStartupStrategy())
+            .Register(new ResponceCachingSampleStartupStrategy())
+            .Register(new MemomoryCacheStartupStrategy())
+            .Register(new BackgroundTaskSratupStrategy())
             ;
 
         public Startup(IConfiguration configuration)

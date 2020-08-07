@@ -18,5 +18,7 @@ namespace NetCoreWebAppSample2.SamplesStartupStrtegy
         public virtual void Configure_Middleware(IApplicationBuilder app, IWebHostEnvironment env)
         {
         }
+
+
     }
 }
