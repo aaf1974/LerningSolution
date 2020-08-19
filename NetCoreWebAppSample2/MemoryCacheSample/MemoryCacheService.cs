@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 
 namespace NetCoreWebAppSample2.MemoryCacheSample
 {
+    //https://docs.microsoft.com/ru-ru/aspnet/core/performance/caching/memory?view=aspnetcore-3.1
+    //https://docs.microsoft.com/ru-ru/dotnet/api/system.runtime.caching.memorycache?view=dotnet-plat-ext-3.1
     public class MemoryCacheService
     {
         IMemoryCache _memoryCache;
