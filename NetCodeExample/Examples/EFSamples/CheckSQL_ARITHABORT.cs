@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Data;
-using System.Data.Common;
 using System.Data.SqlClient;
 
-namespace NetCodeExample
+namespace NetCodeExample.Examples.EFSamples
 {
 
     //http://www.queryprocessor.ru/fast-in-ssms-slow-in-app-part1/
@@ -31,7 +30,7 @@ namespace NetCodeExample
             while (reader.Read())
             {
                 string result = "ARITHABORT = ";
-                for (int i =0; i< colCnt; i++)
+                for (int i = 0; i < colCnt; i++)
                 {
                     result += reader.GetInt32(i) + ";  ";
                 }

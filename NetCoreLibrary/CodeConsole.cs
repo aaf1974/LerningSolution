@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
+
 
 namespace NetCoreLibrary
 {
@@ -48,6 +48,21 @@ namespace NetCoreLibrary
 
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.White;
+        }
+
+
+        public static void WriteLineColor(string message, ConsoleColor bakgroundColor, ConsoleColor foregroundColor)
+        {
+            var backColor = Console.BackgroundColor;
+            var foreColor = Console.ForegroundColor;
+
+            Console.BackgroundColor = bakgroundColor;
+            Console.ForegroundColor = foregroundColor;
+
+            Console.WriteLine(message);
+
+            Console.BackgroundColor = backColor ;
+            Console.ForegroundColor = foreColor;
         }
     }
 }

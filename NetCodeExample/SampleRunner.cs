@@ -1,7 +1,6 @@
 ﻿using NetCodeExample.Examples;
-using NetCoreLibrary;
+using NetCodeExample.Examples.EFSamples;
 using System;
-using System.Diagnostics;
 
 namespace NetCodeExample
 {
@@ -29,6 +28,14 @@ namespace NetCodeExample
 
                 case SampleEnum.Check_SQL_ARITHABORT:
                     CheckSQL_ARITHABORT.PrintSample();
+                    break;
+
+                case SampleEnum.EFDisconectedRepoChangeLogSample:
+                    EFChangeLogSample.PrintDiscinectedSample();
+                    break;
+
+                case SampleEnum.EFConnectedRepoChangeLogSample:
+                    EFChangeLogSample.PrintConectedSample();
                     break;
 
                 default:
