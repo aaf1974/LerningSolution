@@ -21,7 +21,9 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SqlServerScripts", "SqlServ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreWebAppSample2", "NetCoreWebAppSample2\NetCoreWebAppSample2.csproj", "{E7FB387B-08F1-4956-899D-1C1B073F2169}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreKafkaSample", "NetCoreKafkaSample\NetCoreKafkaSample.csproj", "{F243EEFD-7E56-4C0A-9402-A25AA9EE1452}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreKafkaSample", "NetCoreKafkaSample\NetCoreKafkaSample.csproj", "{F243EEFD-7E56-4C0A-9402-A25AA9EE1452}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreWebAppCustom", "NetCoreWebAppCustom\NetCoreWebAppCustom.csproj", "{76578D6E-3185-496B-8409-B7FB7AB027BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +69,10 @@ Global
 		{F243EEFD-7E56-4C0A-9402-A25AA9EE1452}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F243EEFD-7E56-4C0A-9402-A25AA9EE1452}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F243EEFD-7E56-4C0A-9402-A25AA9EE1452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76578D6E-3185-496B-8409-B7FB7AB027BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76578D6E-3185-496B-8409-B7FB7AB027BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76578D6E-3185-496B-8409-B7FB7AB027BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76578D6E-3185-496B-8409-B7FB7AB027BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
