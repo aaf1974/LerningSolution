@@ -15,6 +15,6 @@ namespace NetCodeExample
         Check_SQL_ARITHABORT = 5,
         EFDisconectedRepoChangeLogSample = 6,
         EFConnectedRepoChangeLogSample = 7,
-
+        Двойная_Регистрация_DI = 8
     }
 }

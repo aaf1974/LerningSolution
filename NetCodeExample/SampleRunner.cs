@@ -1,4 +1,5 @@
 ﻿using NetCodeExample.Examples;
+using NetCodeExample.Examples.DiRegExample;
 using NetCodeExample.Examples.EFSamples;
 using System;
 
@@ -36,6 +37,10 @@ namespace NetCodeExample
 
                 case SampleEnum.EFConnectedRepoChangeLogSample:
                     EFChangeLogSample.PrintConectedSample();
+                    break;
+
+                case SampleEnum.Двойная_Регистрация_DI:
+                    TwiceRegSample.PrintConectedSample();
                     break;
 
                 default:
