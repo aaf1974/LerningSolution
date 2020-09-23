@@ -43,6 +43,10 @@ namespace NetCodeExample
                     TwiceRegSample.PrintConectedSample();
                     break;
 
+                case SampleEnum.FluentAsyncSample:
+                    AsyncFluentBuilderSample.RunSample();
+                    break;
+
                 default:
                     throw new NotImplementedException();
             }

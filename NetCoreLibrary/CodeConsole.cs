@@ -22,8 +22,8 @@ namespace NetCoreLibrary
 
         public static void OutCode2Console(IEnumerable<(string fileName, string methodName)> codeParts)
         {
-            Console.BackgroundColor = ConsoleColor.White;
-            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.White;
 
             codeParts.ToList().ForEach(x =>
                 {
