@@ -1,6 +1,7 @@
 ﻿using NetCodeExample.Examples;
 using NetCodeExample.Examples.DiRegExample;
 using NetCodeExample.Examples.EFSamples;
+using NetCodeExample.Examples.EfSoftDelete;
 using System;
 
 namespace NetCodeExample
@@ -45,6 +46,10 @@ namespace NetCodeExample
 
                 case SampleEnum.FluentAsyncSample:
                     AsyncFluentBuilderSample.RunSample();
+                    break;
+
+                case SampleEnum.EF_SoftDelete:
+                    EfSoftDeleteSample.PrintSoftDeleteSample();
                     break;
 
                 default:

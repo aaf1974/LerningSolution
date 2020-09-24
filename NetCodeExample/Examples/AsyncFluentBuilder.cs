@@ -1,7 +1,6 @@
 ﻿using NetCoreLibrary;
 using System;
 using System.Collections.Generic;
-using System.Threading;
 using System.Threading.Tasks;
 
 namespace NetCodeExample.Examples
@@ -62,8 +61,8 @@ namespace NetCodeExample.Examples
         /// Synchronously perform the work for method A.
         private async void DoAInternal()
         {
-            //Thread.Sleep(5000);
-            await Task.Delay(5000);
+            //Thread.Sleep(5000); //blocking wait
+            await Task.Delay(5000); //Not blocking wait
             Console.WriteLine("Execute A method");
         }
 
