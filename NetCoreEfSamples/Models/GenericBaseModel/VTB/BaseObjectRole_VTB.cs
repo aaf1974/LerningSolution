@@ -4,8 +4,8 @@ using System.Text;
 
 namespace NetCoreEfSamples.Models.GenericBaseModel
 {
-    class MainSample : GenericMain<GenericPropChild>
+    public class BaseObjectRole_VTB : BaseObjectRole
     {
-        public string AnyVal { get; set; }
+        public string BaseObjectRole_VTB_Title { get; set; }
     }
 }

@@ -4,10 +4,10 @@ using System.Text;
 
 namespace NetCoreEfSamples.Models.GenericBaseModel
 {
-    public class GenericPropBase
+    class ParentForMain
     {
         public int Id { get; set; }
 
-        public string PropBaseValue { get; set; }
+        //public BaseObject<BaseObjectRole_VTB, BaseObjectGeoObject_VTB> MainSample { get; set; }
     }
 }

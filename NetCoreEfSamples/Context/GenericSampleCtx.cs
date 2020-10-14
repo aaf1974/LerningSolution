@@ -10,8 +10,10 @@ namespace NetCoreEfSamples.Context
     //update-database -Context GenericSampleCtx
     class GenericSampleCtx : BaseSampleContext
     {
-        public DbSet<MainSample> mainSamples { get; set; }
+        public DbSet<BaseObject_VTB> BaseObject { get; set; }
 
-        public DbSet<GenericPropChild> genericPropChildren { get; set; }
+        public DbSet<BaseObjectRole_VTB> BaseObjectRoles { get; set; }
+
+        public DbSet<BaseObjectGeoObject_VTB> BaseObjectGeoObjects { get; set; }
     }
 }
