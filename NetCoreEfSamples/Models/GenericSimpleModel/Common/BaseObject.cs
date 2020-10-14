@@ -4,7 +4,10 @@ using System.Text;
 
 namespace NetCoreEfSamples.Models.GenericSimpleModel.Common
 {
-    public class BaseObject<T1, T2>
+
+    public interface IBaseObject {  }
+
+    public class BaseObject<T1, T2> : IBaseObject
         where T1 : BaseObjectRole
         where T2: BaseObjectGeoObject
     {

@@ -8,6 +8,7 @@ namespace NetCoreEfSamples.Context
 {
     //Add-Migration Sample_GenericSimple -Context GenericSimpleSampleCtx
     //update-database -Context GenericSimpleSampleCtx
+    //remove-migration -context GenericSimpleSampleCtx
     class GenericSimpleSampleCtx : BaseSampleContext
     {
         public DbSet<VTBBaseObject> BaseObjects { get; set; }
