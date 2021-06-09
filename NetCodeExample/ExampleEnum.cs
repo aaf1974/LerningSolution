@@ -20,5 +20,6 @@ namespace NetCodeExample
 
         FluentAsyncSample,
 
+        SemaphoreSlim,
     }
 }

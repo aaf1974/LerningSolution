@@ -52,6 +52,10 @@ namespace NetCodeExample
                     EfSoftDeleteSample.PrintSoftDeleteSample();
                     break;
 
+                case SampleEnum.SemaphoreSlim:
+                    SemaphoreSlimSample.PrintSample();
+                    break;
+
                 default:
                     throw new NotImplementedException();
             }
