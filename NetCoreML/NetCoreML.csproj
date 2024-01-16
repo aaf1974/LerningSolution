@@ -20,7 +20,7 @@
     <PackageReference Include="Microsoft.ML.Vision" Version="1.5.0" />
     <PackageReference Include="MNIST.IO" Version="1.0.1" />
     <PackageReference Include="SciSharp.TensorFlow.Redist" Version="2.2.0.2" />
-    <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
   </ItemGroup>
 
   <ItemGroup>
